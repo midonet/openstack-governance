@@ -1846,6 +1846,41 @@ manila:
         - release:managed
         - type:library
 
+MidoNet:
+  ptl:
+    name: Ryu Ishimoto
+    irc: ryu25
+    email: ryu@midokura.com
+  irc-channel: midonet
+  mission: >
+    TODO: To provide...
+  url: https://wiki.openstack.org/wiki/MidoNet
+  tags:
+    - team:single-vendor
+  deliverables:
+    midonet:
+      repos:
+        -openstack/midonet
+      tags:
+        - release:independent 
+        - type:service
+    midonet-docs:
+      repos:
+        -openstack/midonet-docs
+      tags:
+        - release:none
+    midonet-sandbox:
+      repos:
+        - openstack/midonet-sandbox
+      tags:
+        - release:none
+    python-midonetclient:
+      repos:
+        - openstack/python-midonetclient
+      tags:
+        - release:independent
+        - type:library
+
 mistral:
   ptl:
     name: Renat Akhmerov
